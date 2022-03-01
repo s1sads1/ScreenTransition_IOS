@@ -16,6 +16,10 @@
 		40E2B09227CC034400B2A705 /* ScreenTransitionExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E2B09127CC034400B2A705 /* ScreenTransitionExampleTests.swift */; };
 		40E2B09C27CC034400B2A705 /* ScreenTransitionExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E2B09B27CC034400B2A705 /* ScreenTransitionExampleUITests.swift */; };
 		40E2B09E27CC034400B2A705 /* ScreenTransitionExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E2B09D27CC034400B2A705 /* ScreenTransitionExampleUITestsLaunchTests.swift */; };
+		40E2B0AB27CC1FF900B2A705 /* SuguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E2B0AA27CC1FF900B2A705 /* SuguePushViewController.swift */; };
+		40E2B0AD27CC4E7000B2A705 /* SegurePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E2B0AC27CC4E7000B2A705 /* SegurePresentViewController.swift */; };
+		40E4DEE327CC9D8900AAB81A /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4DEE227CC9D8900AAB81A /* CodePushViewController.swift */; };
+		40E4DEE527CC9F1700AAB81A /* CodePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4DEE427CC9F1700AAB81A /* CodePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		40E2B09727CC034400B2A705 /* ScreenTransitionExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTransitionExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E2B09B27CC034400B2A705 /* ScreenTransitionExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionExampleUITests.swift; sourceTree = "<group>"; };
 		40E2B09D27CC034400B2A705 /* ScreenTransitionExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40E2B0AA27CC1FF900B2A705 /* SuguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePushViewController.swift; sourceTree = "<group>"; };
+		40E2B0AC27CC4E7000B2A705 /* SegurePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegurePresentViewController.swift; sourceTree = "<group>"; };
+		40E4DEE227CC9D8900AAB81A /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
+		40E4DEE427CC9F1700AAB81A /* CodePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				40E2B08327CC034400B2A705 /* Assets.xcassets */,
 				40E2B08527CC034400B2A705 /* LaunchScreen.storyboard */,
 				40E2B08827CC034400B2A705 /* Info.plist */,
+				40E2B0AA27CC1FF900B2A705 /* SuguePushViewController.swift */,
+				40E2B0AC27CC4E7000B2A705 /* SegurePresentViewController.swift */,
+				40E4DEE227CC9D8900AAB81A /* CodePushViewController.swift */,
+				40E4DEE427CC9F1700AAB81A /* CodePresentViewController.swift */,
 			);
 			path = ScreenTransitionExample;
 			sourceTree = "<group>";
@@ -258,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E2B0AB27CC1FF900B2A705 /* SuguePushViewController.swift in Sources */,
+				40E4DEE327CC9D8900AAB81A /* CodePushViewController.swift in Sources */,
 				40E2B07F27CC034300B2A705 /* ViewController.swift in Sources */,
+				40E2B0AD27CC4E7000B2A705 /* SegurePresentViewController.swift in Sources */,
+				40E4DEE527CC9F1700AAB81A /* CodePresentViewController.swift in Sources */,
 				40E2B07B27CC034300B2A705 /* AppDelegate.swift in Sources */,
 				40E2B07D27CC034300B2A705 /* SceneDelegate.swift in Sources */,
 			);
